@@ -1,0 +1,109 @@
+
+/*PARA ESTRUTURAÇÃO DO LAYOUT*/
+/* BORDA = border:1px solid #999; background = background:#EFEFEF;*/
+
+/*Reset*/
+*{margin:0; padding:0; }
+body{font:14px Impact; color:#000;
+background:url(images/bg-header.jpg) repeat-x #FFF;}
+
+#box{width:1000px; margin:0 auto;}
+
+
+/*TOPO*/
+#header{width:960px; height:205px; }
+#headerLogo{width:620px; height:145px;  float:left;}  
+#headerSearch{width:195px; height:35px; float:right; margin-top:110px; margin-right:10px;}
+#headerSearch form{} 
+#headerSearch span{font:14px Impact; color:#000000;}
+#headerSearch input{font:14px Impact; color:#999999;}
+#headerSearch .btn{width:auto; width:28px; height:28px;}
+
+/*Menu e Efeitos*/
+#headerMenu{width:650px; height:45px; float:left; margin-top:12px; margin-left:162px;}
+#headerMenu .menuCategorias{ float:left; }
+#headerMenu .menuCategorias li{ float:left; display:inline;}
+
+#efeito1	{width: 128px; height: 45px; overflow: hidden; background: url(images/menu_bt_inicio.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito1:hover{ background-position: bottom left;}
+
+#efeito2	{width: 128px; height: 45px; overflow: hidden; background: url(images/menu_bt_quemS.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito2:hover{ background-position: bottom left;}
+#efeito3	{width: 128px; height: 45px; overflow: hidden; background: url(images/menu_bt_noticias.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito3:hover{ background-position: bottom left;}
+#efeito4	{width: 128px; height: 45px; overflow: hidden; background: url(images/menu_bt_palavra.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito4:hover{ background-position: bottom left;}
+#efeito5	{width: 128px; height: 45px; overflow: hidden; background: url(images/menu_bt_midias.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito5:hover{ background-position: bottom left;}
+
+
+/*CONTEÚDO*/
+/*formatação de bloco - {width:235px; height:100px; border:1px solid #000; margin-top:40px;}*/
+
+/*Bloco 1 - engloba slide e vídeo*/
+#bloco1{width:960px; height:270px; float:left; }
+/*Slide */
+#conteudoSlide{width:560px; height:240px;float:left; border:1px solid #999; margin-left:20px; margin-top:20px;}
+/*Vídeo*/
+#conteudoVideo{width:290px; height:240px; float:right; border:1px solid #999; margin-right:24px; margin-top:20px; background:#CCC;}
+
+/*Bloco 2 - Content Responsável pelo conteúdo - engloba Mídias, Notícias, e Palavra*/
+#bloco2{width:960px; height:295px; float:left; font-family:"Myriad Pro";}
+
+#conteudoNoticias{width:290px; float:left; height:270px;  margin-left:20px; margin-top:10px;}
+#conteudoNoticias a{ text-decoration:none; color:#999900;}
+#conteudoNoticias a:hover{ text-decoration:underline;}
+#conteudoSubBlocoNoticias{width:250px; height:100px; float:left;  margin-left:20px; margin-top:20px; float:left; background:url(images/fundo_subBloco_noticias.jpg) repeat-x #FFF;}
+#conteudoNoticias ul{ list-style:none; margin:0; padding:0;}
+#conteudoNoticias ul h2{ background:#999900; color:#FFFFFF; font-weight:300;}
+#conteudoNoticias ul li{margin-top: 7px; float:left; margin-bottom: 3px; padding-bottom:3px;  }
+#conteudoNoticias ul li img{float:left; margin-right: 7px;}
+
+#conteudoMidias{width:290px; float:left; height:270px;  margin-left:20px; margin-top:10px;}
+#conteudoMidias a{ text-decoration:none; color:#F90}
+#conteudoMidias a:hover{ text-decoration:underline;}
+#conteudoSubBlocoMidias{width:250px; height:100px; float:left;  margin-left:20px; margin-top:20px; float:left; background:url(images/fundo_subBloco_midias.jpg) repeat-x #FFF;}
+#conteudoMidias ul{ list-style:none; margin:0; padding:0;}
+#conteudoMidias ul h2{ background:#F90; color:#FFF; font-weight:300;}
+#conteudoMidias ul li{margin-top: 7px; float:left; margin-bottom: 3px; padding-bottom:3px;  }
+#conteudoMidias ul li img{float:left; margin-right: 7px;}
+
+#conteudoPalavra{width:290px; float:left; height:270px;  margin-left:20px; margin-top:10px;}
+#conteudoPalavra a{ text-decoration:none; color:#006600;}
+#conteudoPalavra a:hover{ text-decoration:underline;}
+#conteudoSubBlocoPalavra{width:250px; height:100px; float:left; margin-left:20px; margin-top:20px; float:left; background:url(images/fundo_subBloco_palavra.jpg) repeat-x #FFF;}
+#conteudoPalavra ul{ list-style:none; margin:0; padding:0;}
+#conteudoPalavra ul h2{ background:#006600; color:#FFF; font-weight:300;}
+#conteudoPalavra ul li{margin-top: 7px; float:left; margin-bottom: 3px; padding-bottom:3px;  }
+#conteudoPalavra ul li img{float:left; margin-right: 7px;}
+
+/*Bloco 3 */
+#bloco3{width:960px; height:330px; float:left; font-family:"Myriad Pro"; }
+#conteudoEventos{width:290px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+#conteudoEventos a{ text-decoration:none; color:#990000;}
+#conteudoEventos a:hover{ text-decoration:underline;}
+#conteudoEventos ul h2{ background:#990000; color:#FFF; font-weight:300;}
+#conteudoSubBlocoEventos{width:250px; height:100px; float:left;  margin-left:20px; margin-top:20px; float:left; background:url(images/fundo_subBloco_eventos.jpg) repeat-x #FFF;}
+#conteudoEventos ul{ list-style:none; margin:0; padding:0;}
+#conteudoEventos ul li{margin-top: 7px; float:left; margin-bottom: 3px; padding-bottom:3px;  }
+#conteudoEventos ul li img{float:left; margin-right: 7px;}
+#conteudoSlide2{width:580px; height:270px;float:left; border:1px solid #999; margin-left:40px; margin-top:20px;}
+
+/*Bloco 4 */
+#bloco4{width:960px; height:163px; float:left; }
+#bloco4 img: hover{background:#000066;}
+#conteudoFoto1{width:250px; height:115px; float:left; border:1px solid #999; margin-left:20px; margin-top:20px; float:left;}
+#conteudoFoto2{width:250px; height:115px; float:left; border:1px solid #999; margin-left:80px; margin-top:20px; float:left;}
+
+
+/*Footer*/
+#clear{clear:both;}
+#footerAll{height:133px; background:url(images/bg-footer.jpg); repeat-x #FFF; }
+#footer{width:200px; height:60px; margin:0 auto; padding:15px 10px ; }
+#gob{float: right; margin-top: 62px;}
+#footerTxt{font-size:19;}

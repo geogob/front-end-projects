@@ -1,0 +1,77 @@
+
+/*PARA ESTRUTURAÇÃO DO LAYOUT*/
+/* BORDA = border:1px solid #999; background = background:#EFEFEF;*/
+
+/*Reset*/
+*{margin:0; padding:0; }
+body{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000;
+background:url(images/background-header.jpg) repeat-x #FFF;}
+
+#box{width:1000px; margin:0 auto;}
+
+
+/*TOPO*/
+#header{width:960px; height:150px;}
+#headerLogo{ margin-left: 12px; width:250px; height:120px;  float:left; margin-top:24px; } 
+
+/*Menu e Efeitos*/
+#headerMenu{width:590px; height:45px; float:left;  margin-top:88px; margin-left:10px;}
+#headerMenu .menuCategorias{ float:left; }
+#headerMenu .menuCategorias li{ float:left; display:inline;}
+
+#efeito1	{width: 128px; height: 45px; overflow: hidden; background: url(images/MenuEfeito1.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito1:hover{ background-position: bottom left;}
+
+#efeito2	{width: 128px; height: 45px; overflow: hidden; background: url(images/MenuEfeito2.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito2:hover{ background-position: bottom left;}
+
+#efeito3	{width: 128px; height: 45px; overflow: hidden; background: url(images/MenuEfeito3.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito3:hover{ background-position: bottom left;}
+
+#efeito4	{width: 128px; height: 45px; overflow: hidden; background: url(images/MenuEfeito4.png) top left no-repeat; display:
+ block;text-indent: 10000px;}
+#efeito4:hover{ background-position: bottom left;}
+
+/*CONTEÚDO*/
+/*formatação de bloco - {width:235px; height:100px; border:1px solid #000; margin-top:40px;}*/
+
+/* Slide  -  Bloco 1 */
+#bloco1{width:960px; height:295px; float:left; margin-top:20px; background:url(images/background-bloco1.jpg)}
+
+
+/*Produtos - Bloco 2 */
+#bloco2{font:34px "Agency FB"; width:960px; height:350px; float:left;background:url(images/background-bloco1.jpg); margin-top:20px;}
+#tituloBloco{width:150px; height:50px; }
+#conteudoProduto1{width:160px; float:left; height:270px;  margin-left:30px; margin-top:20px; background:url(images/background-bloco1.jpg)}
+
+#conteudoProduto2{width:160px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+
+#conteudoProduto3{width:160px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+
+#conteudoProduto4{width:160px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+
+#conteudoProduto5{width:160px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+
+#conteudoProdutoImagem{width:160px; height:130px; float: left; }
+#conteudoProdutoTexto{width:160px; height:115px; float: left; font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#conteudoProdutoTexto a{ text-decoration:none; color:#333333;}
+#conteudoProdutoTexto a:hover{ text-decoration:underline;}
+#conteudoProdutoTexto ul{ list-style:none; margin:0; padding:0;}
+#conteudoProdutoTexto ul li{margin-top: 7px; float:left; margin-bottom: 3px; padding-bottom:3px;}
+/*Bloco 3 */
+#bloco3{width:960px; height:295px; float:left;margin-top:20px; background:url(images/background-bloco1.jpg); }
+
+#conteudoEventos{width:290px; float:left; height:270px;  margin-left:20px; margin-top:20px; }
+
+#conteudoSlide2{width:580px; height:270px;float:left; margin-left:40px; margin-top:20px;}
+
+/*Footer*/
+#clear{clear:both;}
+#footerAll{height:133px; background:url(images/background-header.jpg); repeat-x #FFF; margin-top:20px;}
+#footer{width:200px; height:60px; margin:0 auto; padding:15px 10px ; }
+#gob{float: right; margin-top: 62px;}
+#footerTxt{font-size:19; color:#FFFFFF; text-decoration:none; margin-top:8px;  text-align:center; font-family:"Times New Roman", Times, serif;}
+#footerTxt1{font-size:19; color:#FFFFFF; text-decoration:underline;margin-right:20px;}
